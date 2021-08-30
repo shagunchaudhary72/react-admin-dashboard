@@ -1,0 +1,65 @@
+.widgetlgUserImg{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.widgetlgHeader{
+    font-size: 25px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(97, 93, 93); 
+    position: relative;
+    right:-30px;
+}
+
+.widgetlgMainDiv{
+    box-shadow: 0px 0px 5px 0 rgb(196, 199, 197);
+    padding: 10px;
+}
+.widgetlgTableHeading{
+
+    padding: 10px 10px;
+    
+    
+}
+.widgetlgTable{
+    margin-top: 30px;
+}
+.widgetlgTableHeading{
+    font-size: 20px;
+    
+}
+.customer{
+    position: relative;
+    left: -60px;
+}
+.widgetlgTableData{
+    padding: 10px 20px;
+}
+.widgetlgUserName{
+    position: relative;
+    top: -15px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: rgb(39, 39, 41);
+
+}
+
+.approved{
+    border: none;
+    background-color: rgb(163, 214, 163);
+    color: green;
+    
+}
+.declined{
+    border: none;
+    background-color: rgb(206, 176, 176);
+    color:rgb(97, 26, 26);
+}
+.pending{
+    border: none;
+    color: rgb(19, 19, 61);
+    background-color: rgb(127, 190, 214);
+}

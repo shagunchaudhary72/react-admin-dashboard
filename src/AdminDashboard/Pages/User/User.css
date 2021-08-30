@@ -1,0 +1,144 @@
+.userImg{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+}
+
+.userMainDiv{
+    margin-right: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   
+}
+.userHeader{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+  
+
+}
+.userHeaderTitle{
+    font-size: 30px;
+}
+.userHeaderButton{
+    height:40px;
+    width:150px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(81, 165, 81);
+    color: white;
+    font-size:20px;
+    cursor:pointer;
+}
+.userInfo{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:2rem;
+}
+.userData{
+    box-shadow: 0 0 5px 0 rgb(190, 194, 191);
+    padding: 1rem;
+    width:300px;
+}
+.userNameImgProfession{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+
+}
+.userName{
+    font-size: 20px;
+    margin-bottom: -10px;
+
+}
+.userProfession{
+    color: grey;
+}
+.userAccountDetailsTitle{
+    font-weight: bold;
+    font-size: 20px;
+    color: grey;
+    margin-bottom: -5px;
+}
+.userContactDetailsTitle{
+    font-weight: bold;
+    font-size: 20px;
+    color: grey;
+    margin-bottom: -5px;
+}
+.userAccount, .userContact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.userEdit{
+    box-shadow: 0 0 5px 0 grey;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width:500px;
+    gap:4rem;
+}
+.userEditTitle{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.userEditForm{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.userEditFormInput{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+.userEditFormInput>label{
+    font-size: 20px;
+}
+.userEditFormInput>input{
+    border:none;
+    border-bottom:1px solid rgb(167, 160, 160);
+    padding: 5px 0;
+}
+.userImgUpdate{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+    flex:50%;
+}
+.userEditImg>img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+
+}
+.userEditImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    margin-top: 20px;
+}
+.userImgDownload{
+    cursor: pointer;
+}
+.userUpdateButton{
+    border:none;
+    padding: 5px 35px;
+    border-radius: 5px;
+    background-color: rgb(48, 130, 185);
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+}

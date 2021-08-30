@@ -1,0 +1,48 @@
+.widgetsmImg{
+    height:35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.widgetsmUser{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    position:relative;
+    left:-25px;
+}
+.widgetsmMainDiv{
+    box-shadow: 0px 0px 5px 0 rgb(196, 199, 197);
+    padding: 10px;
+}
+.widgetsmName{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: rgb(39, 39, 41);
+    margin-bottom: -10px;
+}
+.widgetsmProfession{
+    color: rgb(145, 147, 150);
+}
+.widgetsmButon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    border:none;
+    padding: 3px 10px;
+    background-color: rgb(218, 216, 216);
+    color:grey;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.widgetsmButon:hover{
+    color: rgb(101, 139, 102);
+}
+.widgetsmHeader{
+    font-size: 25px;
+    margin-bottom: -10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(97, 93, 93)
+}

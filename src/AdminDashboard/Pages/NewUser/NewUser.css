@@ -1,0 +1,62 @@
+.newUserMainDiv{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+}
+.newUserForm{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+}
+.newUserFormLeft{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:1rem;
+    box-shadow: 0px 0px 5px 0 rgb(196, 199, 197);
+    padding: 2rem;
+}
+.newUserFormRight{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:1rem;
+    box-shadow: 0 0 3px 0 grey;
+    padding: 2rem;
+}
+.newUserFormLeftData, .newUserFormRightData{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.newUserFormInput{
+    height:30px;
+    width:300px;
+    padding: 5px;
+}
+.newUserFormLabel{
+    font-size: 20px;
+}
+.newUserGender>label{
+    margin: 0 15px;
+}
+.newUserFormRightData>select{
+    height:40px;
+    width:310px;
+   
+}
+.newUserFormButton{
+    height:40px;
+    width:150px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(81, 165, 81);
+    color: white;
+    font-size:20px;
+    cursor:pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+}

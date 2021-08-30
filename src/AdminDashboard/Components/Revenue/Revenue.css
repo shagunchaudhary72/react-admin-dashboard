@@ -1,0 +1,44 @@
+.revenueContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    
+}
+.revenueInfo{
+    flex: 33.33%;
+    box-shadow: 0px 0px 5px 0 rgb(196, 199, 197);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0 2rem;
+
+}
+.revenueMoneyRate{
+    display: flex;
+    justify-content: flex-start;
+    gap:10px;
+    align-items: center;
+    margin: -35px 0;
+    font-size: 20px;
+}
+.revenueHeader{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(129, 136, 136);
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.revenueFooter{
+    font-size: 20px;
+    color: rgb(109, 99, 86);
+}
+.upwardIcon{
+    color:green;
+    position: relative;
+    top:5px;
+}
+.downwardIcon{
+    color: red;
+    position: relative;
+    top:5px;
+}

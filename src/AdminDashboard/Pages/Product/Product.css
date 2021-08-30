@@ -1,0 +1,128 @@
+.productImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.productMainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right:4rem;
+    gap: 2rem;
+
+}
+.productFooterImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.productHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    
+}
+.productHeaderButton{
+    height:40px;
+    width:150px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(81, 165, 81);
+    color: white;
+    font-size:20px;
+    cursor:pointer;
+}
+.productMidle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:2rem;
+}
+.productPerformance{
+    flex:70%;
+    padding:1rem;
+    box-shadow: 0 0 5px 0 rgb(190, 194, 191);
+}
+.productInfo{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px 0 rgb(190, 194, 191);
+    padding:2rem;
+    flex:30%;
+}
+.productInfoImgName{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+.productInfoData{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;  
+}
+.productInfoImgName>p{
+    font-size: 20px;
+}
+.productInfoData>p{
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+.productFooter{
+     box-shadow: 0 0 5px 0 rgb(190, 194, 191);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+ 
+
+}
+.productUpdateButton{
+    border:none;
+    padding: 5px 35px;
+    border-radius: 5px;
+    background-color: rgb(48, 130, 185);
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+.productData{
+    display: flex;
+    flex-direction: column;
+    
+}
+.productData>label{
+    font-size:20px;
+    color:rgb(130, 138, 135);
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.productData>input{
+    border: none;
+    width:300px;
+    height: 40px;
+    border-bottom: 1px solid grey;
+}
+.productData>select{
+    height:40px;
+}
+.productImgUpdateButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.productImgUpdate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+}
